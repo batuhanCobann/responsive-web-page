@@ -1,11 +1,17 @@
-const aboutUs = document.querySelector(".page1")
-const dialog = document.querySelector(".dialogForm")
-const openDialog = document.querySelector(".openDialog")
+const aboutUs = document.querySelector(".page1");
+const dialog = document.querySelector(".dialog-form");
+const openDialog = document.querySelector(".open-dialog");
+const closeDialog = document.querySelector(".close-dialog");
 
 
 openDialog.addEventListener("click", e =>{
     e.preventDefault();
     dialog.showModal();
+})
+
+closeDialog.addEventListener("click", e => {
+    e.preventDefault();
+    dialog.close();
 })
 
 
