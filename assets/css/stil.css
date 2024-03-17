@@ -11,9 +11,8 @@
 
 table{
     max-width: 500px;
-    min-height: 100px;
     background-color: rgb(206, 176, 176);
-    padding: 20px;
+    padding: 10px;
 }
 input{
     background-color: rgb(218, 204, 204);
