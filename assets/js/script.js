@@ -1,4 +1,13 @@
 const aboutUs = document.querySelector(".page1")
+const dialog = document.querySelector(".dialogForm")
+const openDialog = document.querySelector(".openDialog")
+
+
+openDialog.addEventListener("click", e =>{
+    e.preventDefault();
+    dialog.showModal();
+})
+
 
 
 async function getItem(){
@@ -44,6 +53,8 @@ async function listItem(){
         <p>${data.bottom.description}</p>
     </div>
     `
+
 }
+
 
 listItem();

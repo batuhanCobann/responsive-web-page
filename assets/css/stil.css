@@ -8,6 +8,44 @@
     }
 }
 
+
+table{
+    max-width: 500px;
+    min-height: 100px;
+    background-color: rgb(206, 176, 176);
+    padding: 20px;
+}
+input{
+    background-color: rgb(218, 204, 204);
+    border: none;
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+}
+select{
+    background-color: rgb(218, 204, 204);
+    border: none;
+    margin-top: 15px;
+}
+
+textarea{
+    background-color: rgb(218, 204, 204);
+    margin-top: 15px;
+    border: none;
+}
+
+
+.dialogForm{
+    margin: 50px auto;
+    border-radius: 15px;
+    border: none;
+}
+::backdrop{
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+
+
 .mobile-hidden{display: none;}
 .tablet-img1{display: none;}
 .desktop-img1{display: none;}
@@ -134,6 +172,9 @@
         border-radius: 8px;
         margin: 32px auto 48px auto;
     }
+    a:hover{
+        background-color: #e33a14;
+    }
 }
 
 
@@ -194,6 +235,9 @@
         letter-spacing: 2px;
         display:block;
     }
+    a:hover{
+        color:#E7816B;
+    }
 }
 
 
@@ -234,6 +278,9 @@
         display: inline-block;
         border-radius: 8px;
     }
+    a:hover{
+        background-color: rgb(176, 210, 240);
+    }
 }
 
 .footer-content2{
@@ -254,10 +301,16 @@
 
 .footer-end-content1{
     margin-top: 40px;
+    p{
+        text-align: left;
+    }
 }
 
 .footer-end-content2{
     margin-top: 40px;
+    p{
+        text-align: left;
+    }
 }
 .footer-end-content3{
     margin-top: 40px;
@@ -304,6 +357,9 @@
             font-weight: 400;
             line-height: 14px; /* 100% */
             letter-spacing: 2px;
+        }
+        a:hover{
+            color: #e33a14;
         }
     }
 
@@ -363,7 +419,7 @@
     }
 
     .footer-content2{
-        padding: 166px 39px 15px 39px;
+        padding: 166px 45px 15px 45px;
         display: flex;
         align-items: center;
     }
@@ -390,12 +446,16 @@
     .footer-hr2{
         display: block;
     }
-
+    
     .footer-end-content{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        margin: 0px 50px;
     }
-
+    .content1-content2{
+        display: flex;
+        gap: 100px;
+    }
 
 }
 
@@ -523,3 +583,4 @@
         text-align: left;
     }
 }
+
